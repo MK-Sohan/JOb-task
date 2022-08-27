@@ -1,10 +1,11 @@
 import React from "react";
+import Mylocation from "./Mylocation";
 
 const GoogleMap = () => {
   return (
     <div className=" mt-20 mb-60">
       <h1 className="font-bold p-10 text-3xl">Google Map</h1>
-      <div class="mapouter">
+      <div class="mapouter mb-20">
         <div class="gmap_canvas">
           <iframe
             width="1263"
@@ -18,6 +19,7 @@ const GoogleMap = () => {
           ></iframe>
         </div>
       </div>
+      <Mylocation></Mylocation>
     </div>
   );
 };
